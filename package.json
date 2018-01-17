@@ -1,0 +1,28 @@
+{
+  "name": "mbctl",
+  "version": "0.0.1",
+  "description": "A command line utility for controlling Mountebank",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njenan/mbctl.git"
+  },
+  "keywords": [
+    "Mountebank",
+    "CLI"
+  ],
+  "author": "Nathan Jenan",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/njenan/mbctl/issues"
+  },
+  "homepage": "https://github.com/njenan/mbctl#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "mountebank": "^1.13.0"
+  }
+}
